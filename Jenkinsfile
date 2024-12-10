@@ -1,4 +1,20 @@
-Hello good morning
-what are you doing
-hey good morning
-i am doing study.
+pipeline{
+  agent any
+  stages{
+    stage('hello khushboo'){
+    steps {
+      echo 'hello khushboo'
+    }
+    }
+    stage('Hello Montu'){
+      steps{
+        echo 'hello montu'
+      }
+    }
+    stage('Hello sonu'){
+      steps{
+        echo 'hello sonu'
+      }
+    }
+  }
+}
